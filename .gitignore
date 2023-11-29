@@ -198,4 +198,10 @@ dependency-reduced-pom.xml
 README.html
 *.iml
 .idea
-.exercism
+*.exercism.mvn/
+*HELP.md
+*mvnw
+*.mvn*
+*.mvnw.cmd
+mvnw.cmd
+
