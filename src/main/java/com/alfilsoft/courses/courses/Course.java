@@ -8,6 +8,10 @@ public class Course {
     private String description;
     private boolean certificate;
 
+    private String category;
+
+    private double price;
+
     public long getId() {
         return id;
     }
@@ -46,5 +50,21 @@ public class Course {
 
     public void setCertificate(boolean certificate) {
         this.certificate = certificate;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
